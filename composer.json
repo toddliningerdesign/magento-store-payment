@@ -1,0 +1,20 @@
+{
+  "name": "toddlininger/storepayment",
+  "description": "ToddLininger Store Payment",
+  "type": "magento2-module",
+  "version": "2.0.1",
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "license": [
+    "Commercial License - Copyright 2022, Todd Lininger Design, LLC. All rights reserved. * https://toddlininger.com * See LICENSE.txt for details."
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ToddLininger\\StorePayment\\": ""
+    }
+  }
+}

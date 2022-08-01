@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ Copyright 2022, Todd Lininger Design, LLC. All rights reserved. * https://toddlininger.com * See LICENSE.txt for details.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <tis>
+                <active>1</active>
+                <title>Payment Taken In-Store</title>
+                <payment_action>true</payment_action>
+                <model>ToddLininger\StorePayment\Model\Tis</model>
+                <group>offline</group>
+            </tis>
+        </payment>
+    </default>
+</config>
